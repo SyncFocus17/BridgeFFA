@@ -1,0 +1,57 @@
+name: bridges
+version: 0.0.7
+main: gg.azura.bridges.Bridges
+api-version: 1.21
+commands:
+  bridgeffa:
+    usage: /bridgeffa <subcommands>
+    description: BridgeFFA Main Command
+    aliases: [ ffa, bridges ]
+  kill:
+    usage: /kill
+    description: Kill yourself
+    aliases: [ kys, kms, suicide ]
+permissions:
+  bridgeffa:
+    description: BridgeFFA Main Permission
+    default: op
+    children:
+      armorstand:
+        description: Permission to execute the armorstand subcommand
+        default: op
+      kill:
+        description: Permission to execute the kill subcommand
+        default: true
+      kit:
+        description: Permission to execute the kit subcommand
+        default: op
+      lobby:
+        description: Permission to execute the lobby subcommand
+        default: true
+      replacekit:
+        description: Permission to execute the replacekit subcommand
+        default: op
+      savekit:
+        description: Permission to execute the savekit subcommand
+        default: op
+      savespawn:
+        description: Permission to execute the savespawn subcommand
+        default: op
+      setlobby:
+        description: Permission to execute the setlobby subcommand
+        default: op
+      spawn:
+        description: Permission to execute the spawn subcommand
+        default: op
+      shop:
+        description: Permission to execute the shop command
+        default: true
+      messageshop:
+        description: Permission to execute the messageshop command
+        default: true
+      stats:
+        description: Permission to execute the stats command
+        default: true
+      instaspawn:
+        description: Permission to execute the instaspawn command
+        default: true

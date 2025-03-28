@@ -1,0 +1,72 @@
+{
+  "1": {
+    "message_with_killer": "{victim} was slain by {killer}",
+    "message_without_killer": "{victim} died",
+    "price": 0,
+    "category": "Default",
+    "popularity": "Common"
+  },
+  "2": {
+    "message_with_killer": "&3{victim} &bgot rolled by &3{killer}&b",
+    "message_without_killer": "&3{victim} &brolled themselves",
+    "price": 50,
+    "category": "Humorous",
+    "popularity": "Rare"
+  },
+  "3": {
+    "message_with_killer": "{victim} was obliterated by {killer}",
+    "message_without_killer": "{victim} met their demise",
+    "price": 100,
+    "category": "Epic",
+    "popularity": "Uncommon"
+  },
+  "4": {
+    "message_with_killer": "&c{killer} &7eliminated &c{victim}&7!",
+    "message_without_killer": "&c{victim} &7succumbed to the elements",
+    "price": 150,
+    "category": "Battle",
+    "popularity": "Legendary"
+  },
+  "5": {
+    "message_with_killer": "&6{killer} &fvanquished &6{victim}&f!",
+    "message_without_killer": "&6{victim} &fperished",
+    "price": 200,
+    "category": "Mythical",
+    "popularity": "Epic"
+  },
+  "6": {
+    "message_with_killer": "&e{killer} &adefeated &e{victim}&a!",
+    "message_without_killer": "&e{victim} &amet a tragic end",
+    "price": 250,
+    "category": "Victory",
+    "popularity": "Common"
+  },
+  "7": {
+    "message_with_killer": "&b{killer} &ccrushed &b{victim}&c!",
+    "message_without_killer": "&b{victim} &cfell into oblivion",
+    "price": 300,
+    "category": "Brutal",
+    "popularity": "Rare"
+  },
+  "8": {
+    "message_with_killer": "&d{killer} &5defeated &d{victim}&5!",
+    "message_without_killer": "&d{victim} &5lost the fight",
+    "price": 350,
+    "category": "Fantasy",
+    "popularity": "Uncommon"
+  },
+  "9": {
+    "message_with_killer": "&a{killer} &2dominated &a{victim}&2!",
+    "message_without_killer": "&a{victim} &2was overpowered",
+    "price": 400,
+    "category": "Power",
+    "popularity": "Legendary"
+  },
+  "10": {
+    "message_with_killer": "&4{killer} &cdestroyed &4{victim}&c!",
+    "message_without_killer": "&4{victim} &cwas annihilated",
+    "price": 450,
+    "category": "Destruction",
+    "popularity": "Epic"
+  }
+}
